@@ -1,0 +1,32 @@
+{
+  "name": "users-jwt-api",
+  "version": "1.0.0",
+  "description": "A Node.js API for user authentication using JWT with Fastify",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.0.1",
+    "@prisma/client": "^6.9.0",
+    "bcrypt": "^6.0.0",
+    "dotenv": "^8.2.0",
+    "fastify": "^5.4.0",
+    "jsonwebtoken": "^8.5.1"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.27.2",
+    "babel-jest": "^30.0.0",
+    "cypress": "^14.4.1",
+    "jest": "^30.0.0",
+    "nodemon": "^2.0.4",
+    "prisma": "^6.9.0"
+  },
+  "author": "Your Name",
+  "license": "MIT"
+}
